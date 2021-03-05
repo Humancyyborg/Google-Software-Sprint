@@ -26,3 +26,12 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+/** fetches harded coded string and display them in the broswer page onload*/
+async function displayGreetins(){
+const responseFromserver=await fetch("/hello");
+const textFromResponse=await responseFromserver.text();
+
+const  greetingContainer=documnet.getElementById('greetingCon');
+greetingContainer.innerText=textFromResponse;
+}
