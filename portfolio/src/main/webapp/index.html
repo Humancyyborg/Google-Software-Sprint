@@ -2,18 +2,183 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <!-- <meta content ="width=device-width, initial-scale=1.0"> -->
+    <title >Portfolio  </title>
+    <link rel="stylesheet" href="boostrap-grid.css"  type="text/css">
+     <link rel="stylesheet" href="style.css"  type="text/css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inknut+Antiqua:wght@300&display=swap" rel="stylesheet">
+   
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
   </head>
-  <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+    <body>
+
+    <nav >
+        <ul>
+      <li><a href="#contact">contact</a></li>
+     <li><a href="#projects">projects</a></li>
+        <li><a href="#experience ">experience</a></li>
+        <li class="empty"></li>
+        <li><a href="https://twitter.com/HumanCyyborg" target="_blank">twitter</a></li>
+       <li><a href="https://www.linkedin.com/in/danieldawsonkalu/" target="_blank">Linkedin</a></li>
+        
+    </ul>
+
+    </nav>
+
+    <header id="experience">
+       <div class ="container">
+         <div class ="row"> 
+<!-- left row -->
+             <div class="col-sm">
+        <h1>hi ,i'm<br/> daniel KALU</h1>
+            <ul>
+        <li>_Software developer & Ux designer</li>
+        <li>_Studying computer science at Minerva schools</li>
+        <li>_Cofounder of non profit projects and organisation</li>
+        <li>_content creator on Youtube</li>
+        <li>_speaking at various conferences for education</li>
+       </ul>
+    <a href="" class="button">add me on Linkedin</a>
+
+    </div>  
+    <!-- right row  -->
+      <div class="col-sm"> 
+    <figure>
+    <img src = "/image/daniel.jpg" class="intro-img" alt="daniel KALU" />
+    <figcaption>photo by sk</figcaption>
+    </figure>
+            </div>
+         </div>
+     </div>
+    
+    </header>
+
+    <section>
+        <!-- This section is for my bio -->
+    <ul class="skill-list">
+        <li>01_graphic design</li>
+        <li> 02_user experience</li>
+        <li>03_user interface design</li>
+        <li>04_design thinking</li>
+        <li>05_user research</li> 
+    </ul>
+    </section>
+    <!-- the first project section -->
+<section class="project blue" id="projects">
+     <div class ="container">
+         <div class ="row"> 
+<!-- left row -->
+             <div class="col-sm">
+   <figure>
+    <img src = "/image/lion.jpg" alt="daniel KALU" />
+    <figcaption class="right-alignment"> 
+        photo by sk
+    </figcaption>
+    </figure>
+             </div>
+
+
+<!-- right column -->
+      <div class="col-sm"> 
+    <h2>
+        Branding student<br/> for the good of technology
+    </h2>
+<p>
+    for female cosmetics
+Lorem ipsum dolor amet sartorial quinoa 3 wolf moon,
+ tilde neutra succulents vegan kitsch church-key vaporware. 
+ Pork belly thundercats iPhone tilde 90’s ugh. Narwhal post-ironic
+  VHS affogato subway tile. Everyday carry copper mug art party, 
+  blue bottle normcore banh mi gastropub lomo fingerstache four 
+  dollar toast single-origin coffee hell of 3 wolf moon palo santo kinfolk.
+</p> 
+<a href="" class="button">read more</a> 
+      </div>
+         </div>
+     </div>  
+</section>
+
+<!-- section for project 2 -->
+<section class="project ">
+    <div class ="container">
+         <div class ="row"> 
+<!-- left row -->
+             <div class="col-sm right-alignment">
+                 <h2>
+        User experience<br/> design for dash board app
+    </h2>
+<p>
+Lorem ipsum dolor amet sartorial quinoa 3 wolf moon,
+ tilde neutra succulents vegan kitsch church-key vaporware. 
+ Pork belly thundercats iPhone tilde 90’s ugh. Narwhal post-ironic
+  VHS affogato subway tile. Everyday carry copper mug art party, 
+  blue bottle normcore banh mi gastropub lomo fingerstache four 
+  dollar toast single-origin coffee hell of 3 wolf moon palo santo kinfolk. 
+</p>
+<a href="" class="button">read more</a>
+             </div>
+    <!-- here we add an image with a caption -->
+ <div class="col-sm">    
+    <figure>
+    <img src = "/image/lion.jpg" alt="daniel KALU" />
+    <figcaption> 
+        photo by sk
+    </figcaption>
+    </figure>
     </div>
+    </div>
+    </div>
+
+ 
+     
+</section>
+
+
+<!-- project 3 -->
+<section class="project blue">
+    <div class ="container">
+         <div class ="row"> 
+<!-- left row -->
+             <div class="col-sm">
+    <figure>
+    <img src = "/image/lion.jpg" alt="daniel KALU" />
+    <figcaption class="right-alignment"> 
+        photo by sk
+    </figcaption>
+    </figure>
+             </div>
+            <!-- right side column -->
+     <div class="col-sm">
+<h2>
+        Ipad App<br/> For the Artist
+    </h2>
+<p>
+Lorem ipsum dolor amet sartorial quinoa 3 wolf moon,
+ tilde neutra succulents vegan kitsch church-key vaporware. 
+ Pork belly thundercats iPhone tilde 90’s ugh. Narwhal post-ironic
+  VHS affogato subway tile. Everyday carry copper mug art party, 
+  blue bottle normcore banh mi gastropub lomo fingerstache four 
+  dollar toast single-origin coffee hell of 3 wolf moon palo santo kinfolk. 
+</p>
+<a href="" class="button">read more</a> 
+     </div>
+      </div>
+       </div> 
+</section>
+
+ <!-- creating the foooter section -->
+ <footer    id="contact">
+     <h2>
+         any questions?<br/>
+         find me here dankalu.work@gmail.com
+     </h2>
+     <p>
+         designed &developed by daniel KALU
+     </p>
+ </footer>
+   
   </body>
 </html>
+
