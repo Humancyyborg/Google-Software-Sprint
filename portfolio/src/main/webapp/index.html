@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="boostrap-grid.css"  type="text/css">
      <link rel="stylesheet" href="style.css"  type="text/css">
      <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
+     
      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inknut+Antiqua:wght@300&display=swap" rel="stylesheet">
    
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh8LEPsQ6ab0d3xX3aA8FX9y1DCyBDPBU"></script> -->
+    
   </head>
-    <body>
+    <body onload="createMap();">
 
     <nav >
         <ul>
@@ -176,6 +178,33 @@ Lorem ipsum dolor amet sartorial quinoa 3 wolf moon,
   <br/>
   <input type="submit" />
 </form>
+
+<!-- 
+The google map section -->
+
+<!-- <section onload="createMap();" >
+ <h2>Hello Google Maps</h2>
+ <div id="map"></div> -->
+
+
+ 
+<!-- </section> -->
+<!-- 
+The part  for testing the new map -->
+
+
+  <!--The div element for the map -->
+    <div id="map"></div>
+
+     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+    
+    
+
 
  <!-- creating the foooter section -->
  <footer    id="contact">

@@ -15,12 +15,12 @@ public class FormHandlerServlet extends HttpServlet {
 
     // Get the value entered in the form.
     String recruiterName = request.getParameter("name");
-     String RecruiterEmail = request.getParameter("email");
+     String recruiterEmail = request.getParameter("email");
     String message = request.getParameter("message");
 
     // Print the value so you can see it in the server logs.
     System.out.println("recruiter name: " +recruiterName );
-    System.out.println(" email: " +RecruiterEmail );
+    System.out.println(" email: " +recruiterEmail );
     System.out.println("message: " +message);
 
   
@@ -30,7 +30,7 @@ public class FormHandlerServlet extends HttpServlet {
 
     // Write the value to the response so the user can see it.
     response.getWriter().println("You name: " + recruiterName);
-    response.getWriter().println("You email: " + RecruiterEmail);
+    response.getWriter().println("You email: " + recruiterEmail);
     response.getWriter().println("The message you are sending: " + message);
 
   }
