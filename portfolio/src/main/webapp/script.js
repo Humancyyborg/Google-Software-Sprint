@@ -38,12 +38,12 @@ greetingContainer.innerText=textFromResponse;
 
 
 
-// /** Creates a map that shows landmarks around Google. */
-// function createMap() {
-//  const map = new google.maps.Map(
-//      document.getElementById('map'),
-//      {center: {lat: 37.422403, lng: -122.088073}, zoom: 15});
-//   console.log(map);
+/** Creates a map that shows landmarks around Google. */
+function createMap() {
+ const map = new google.maps.Map(
+     document.getElementById('map'),
+     {center: {lat: 37.422403, lng: -122.088073}, zoom: 15});
+  console.log(map);
 //  addLandmark(
 //      map, 37.423829, -122.092154, 'Google West Campus',
 //      'Google West Campus is home to YouTube and Maps.')
@@ -71,17 +71,17 @@ greetingContainer.innerText=textFromResponse;
 //  console.log(map);
 
 // Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.036 };
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: uluru,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: uluru,
-    map: map,
-  });
+// function initMap() {
+//   // The location of Uluru
+//   const uluru = { lat: -25.344, lng: 131.036 };
+//   // The map, centered at Uluru
+//   const map = new google.maps.Map(document.getElementById("map"), {
+//     zoom: 4,
+//     center: uluru,
+//   });
+//   // The marker, positioned at Uluru
+//   const marker = new google.maps.Marker({
+//     position: uluru,
+//     map: map,
+//   });
 }
